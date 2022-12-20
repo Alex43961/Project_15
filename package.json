@@ -1,0 +1,19 @@
+{
+  "name": "homework-15",
+  "version": "1.0.0",
+  "description": "market",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex43961/Project_15.git"
+  },
+  "author": "alex43961",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alex43961/Project_15/issues"
+  },
+  "homepage": "https://github.com/Alex43961/Project_15#readme"
+}
