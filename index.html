@@ -77,37 +77,37 @@
 		<main class="main">
 			<aside class="sidebar">
 				<div class="wrapper_form">
-					<p><b>Цена $:</b> </p>
+					<p><b>Price £:</b> </p>
 					<br>
 					<form onsubmit="return false" oninput="level.value = flevel.valueAsNumber">
-						<input name="flevel" id="flying" type="range" min="500" max="50000" value="500" step="100">
-						<output for="flying" name="level">500</output>
+						<input name="flevel" id="flying" type="range" min="30000" max="500000" value="500" step="500">
+						<output for="flying" name="level">30000</output>
 						<br>
 						<br>
 					</form>
 					<form action="/" method="post"></form>
-					<b>Марка автомобиля:</b> <br>
-					<input id="mercedes_benz" type="checkbox" name="label_car"><label for="disel">Mercedes-Benz</label><br>
-					<input id="bmw" type="checkbox" name="label_car"><label for="gas">BMW</label><br>
-					<input id="audi" type="checkbox" name="label_car"><label for="gas">Audi</label><br>
+					<b>Number of doors:</b> <br>
+					<input id="mercedes_benz" type="checkbox" name="label_car"><label for="disel">3 doors</label><br>
+					<input id="bmw" type="checkbox" name="label_car"><label for="gas">5 doors</label><br>					
 					<br>
 
-					<b>Вазраст авто:</b>
+					<b>Wheels radius:</b>
 					<br>
-					<input type="radio" name="age_car">До 5-ти лет <br>
-					<input type="radio" name="age_car">5 - 10 лет <br>
-					<input type="radio" name="age_car">10-15 лет <br>
-					<input type="radio" name="age_car">Более 15 лет <br>
+					<input type="radio" name="age_car">15” <br>
+					<input type="radio" name="age_car">16” <br>
+					<input type="radio" name="age_car">17” <br>
+					<input type="radio" name="age_car">18” <br>
+					<input type="radio" name="age_car">19” <br>
+					<input type="radio" name="age_car">20” <br>
 					<br>
-					<p></p><b>Тип топлива:</b> <br>
-					<input id="diesel" type="checkbox" name="11"><label for="diesel">Дизель</label><br>
-					<input id="gas" type="checkbox" name="11"><label for="gas">Бензин</label>
+					<p></p><b>Fuel type:</b> <br>
+					<input id="diesel" type="checkbox" name="11"><label for="diesel">diesel</label><br>
+					<input id="gas" type="checkbox" name="11"><label for="gas">petrol</label>
 					<br>
 					<br>
 					<br>
-					<input type="submit" name="submit" value="Смотреть">
-					<br>
-					<input type="reset" name="reset" value="Сбросить">
+					<input class="btn-sidebar" type="submit" name="submit" value="To see">					
+					<input class="btn-sidebar" type="reset" name="reset" value="Reset">
 				</div>
 			</aside>
 
@@ -129,12 +129,15 @@
 							<img class="audi" src="./public/images/a1_sportback_technik.webp" alt="Something wrong">
 						</a>
 					</div>
-
+				</div>
+				<div class="button-wrapper">
+					<a href="#"><button class="button-gallery" type="submit" value="submit">Enquire Now</button></a>
+					<a href="#"><button class="button-gallery" type="submit" value="submit">Free Valuation</button></a>
 				</div>
 				<div class="item-wrapper">
 					<div class="item-text">
 						<p><strong>A8 Sport</strong></p>
-						<p><strong>From ?75,035</strong></p>
+						<p><strong>From £75,035</strong></p>
 						<p><strong>Features Include</strong></p>
 						<ul>
 							<li>18’’ x 8.0J ‘5-V-spoke’ design forged alloy wheels</li>
@@ -153,10 +156,14 @@
 					</div>
 
 				</div>
+				<div class="button-wrapper">
+					<a href="#"><button class="button-gallery" type="submit" value="submit">Enquire Now</button></a>
+					<a href="#"><button class="button-gallery" type="submit" value="submit">Free Valuation</button></a>
+				</div>
 				<div class="item-wrapper">
 					<div class="item-text">
 						<p><strong>R8 Coupe V10 RWD</strong></p>
-						<p><strong>From ?132,805</strong></p>
+						<p><strong>From £132,805</strong></p>
 						<p><strong>The V10 RWD highlights include:</strong></p>
 						<ul>
 							<li>19" '5-spoke design' cast aluminium wheels in gloss black</li>
@@ -171,6 +178,10 @@
 							<img class="audi" src="./public/images/r8_coupe_v10_rwd.webp" alt="Something wrong">
 						</a>
 					</div>
+				</div>
+				<div class="button-wrapper">
+					<a href="#"><button class="button-gallery" type="submit" value="submit">Enquire Now</button></a>
+					<a href="#"><button class="button-gallery" type="submit" value="submit">Free Valuation</button></a>
 				</div>
 
 			</div>
