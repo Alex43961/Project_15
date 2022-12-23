@@ -21,6 +21,7 @@ li {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	position: sticky;
 
 }
 
@@ -127,4 +128,43 @@ input.search__nav:hover {
 .button-gallery:hover {
 	background-color: aliceblue;
 	color: var(--third-bg);
+}
+
+
+
+
+
+.sub-footer {
+	padding-top: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.map__footer {
+	width: 300px;
+	height: 300px;
+}
+
+.collback__subfooter {
+	width: 200px;
+	height: 200px;
+	background: var(--primary-b-color);
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.collback-items {
+	
+}
+
+.footer {
+	background: var(--secondary-bg);
+	height: 80px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
