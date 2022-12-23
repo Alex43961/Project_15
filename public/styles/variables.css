@@ -11,6 +11,11 @@
 	--secondary-color: rgb(17, 20, 197);
 	--third-color: rgb(128, 21, 234);
 
+	/* border-color */
+	--primary-b-color: #b0c1d5;
+	--secondary-b-color: rgb(17, 20, 197);
+	--third-b-color: rgb(128, 21, 234);
+
 	/* font size */
 	--font-size-xl: 3rem;
 	--font-size-l: 1.2rem;
